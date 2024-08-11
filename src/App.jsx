@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Game from './Game'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-    </>
+    <div className='grid justify-center items-center mi-w-full min-h-dvh ' style={{
+      backgroundColor:"#0d1b2a"
+    }}>
+    <Game/>
+    </div>
   )
 }
 
